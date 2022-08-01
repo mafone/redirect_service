@@ -1,21 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  window.location.href = 'https://eleicoesjustas.org';
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={process.env.PUBLIC_URL + "/logo192.png"} className="App-logo" alt="   Eleições Justas" />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://eleicoesjustas.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Eleições Justas
         </a>
       </header>
     </div>
